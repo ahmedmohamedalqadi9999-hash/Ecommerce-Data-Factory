@@ -1,0 +1,9 @@
+{
+	"name": "ahmedalqadi",
+	"location": "spaincentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "11892ee6-7454-48f7-b1e7-5c600b6a36e3",
+		"tenantId": "0bc92751-071a-4e2c-a48b-633206fef374"
+	}
+}

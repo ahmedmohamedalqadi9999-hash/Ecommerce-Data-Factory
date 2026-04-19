@@ -1,0 +1,49 @@
+{
+	"name": "Parquet2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "datalake"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "cst_id",
+				"type": "UTF8"
+			},
+			{
+				"name": "cst_key",
+				"type": "UTF8"
+			},
+			{
+				"name": "cst_firstname",
+				"type": "UTF8"
+			},
+			{
+				"name": "cst_lastname",
+				"type": "UTF8"
+			},
+			{
+				"name": "cst_marital_status",
+				"type": "UTF8"
+			},
+			{
+				"name": "cst_gndr",
+				"type": "UTF8"
+			},
+			{
+				"name": "cst_create_date",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
